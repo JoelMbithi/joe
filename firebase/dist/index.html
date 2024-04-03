@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js" type="module"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js" type="module"></script> 
+
+    
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+
+    <!-- <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js'
+    
+        // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+        import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js'
+    
+        // Add Firebase products that you want to use
+        import { getAuth } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js'
+        import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js'
+      </script> -->
+    
+
+    <h1>cloud cafe</h1>
+
+    <div class="content">
+
+        <form id="add-cafe-form"></form>
+
+        <ul id="cafe-list"></ul>
+
+    </div>
+
+    <!-- <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyBsbWDgcnPy89JruzHV4RXx5i-6udhbBbs",
+                authDomain: "database-learn-a629f.firebaseapp.com",
+                projectId: "database-learn-a629f",
+                storageBucket: "database-learn-a629f.appspot.com",
+                messagingSenderId: "17093392051",
+                appId: "1:17093392051:web:81d67f4e170b3410baa2c6"
+            };
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+             const db = app.firestore()
+
+        })
+
+         
+db.collection('cafe').get().then((snapshot) => {
+    console.log(snapshot.docs);
+});
+
+    </script> -->
+</body>
+</html>
