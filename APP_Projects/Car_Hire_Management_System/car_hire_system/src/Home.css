@@ -1,0 +1,97 @@
+.home {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h4 {
+    padding: 10px;
+}
+
+.left_Bar {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    min-width: 150px;
+    background-color: #f5078a;
+    height: fit-content;
+    margin-top: 60px;
+   
+    border-radius: 10px;
+}
+
+.left_Bar > a {
+    text-decoration: none;
+    margin: 0;
+    padding: 20px;
+    color: #000;
+}
+
+.Homecenter_Bar {
+    display: flex;
+    margin-left: 20px; 
+    flex-direction: column;
+    width: 100%;
+}
+
+.Homecenter_Bar > h4 {
+    padding: 20px;
+    text-align: center;
+}
+
+.cars {
+    display: flex; 
+    flex-wrap: wrap; /* Allows wrapping to the next line if there's not enough space */
+    justify-content: space-around; /* Distributes space evenly */
+    gap: 20px; /* Space between car items */
+}
+
+.car_item {
+    display: flex; /* Use flex to align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the items */
+    width: 200px; /* Fixed width for each car item */
+    padding: 10px; /* Padding around the items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(255, 0, 170, 0.9); /* Optional shadow for styling */
+}
+.car_item:hover {
+    color: aqua;
+    background-color: #f5078a
+}
+
+.car_item img {
+    width: 100%; /* Make image full width of car item */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.car_item p {
+    margin: 5px 0; /* Space around paragraph */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+}
+
+.car_item button {
+    padding: 10px 20px; /* Padding for button */
+    font-size: 14px; /* Font size for button */
+    background-color: #ff9900; /* Button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.car_item button:hover {
+    background-color: #a1a1a1; 
+}

@@ -1,0 +1,87 @@
+.Header_components {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 70%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f5078a;
+    width:100%;
+
+}
+.Header_components > h {
+    margin-top: 30px;
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: 800;
+}
+.Header_logo {
+    height: 80px;
+    border-radius: 100px;
+}
+
+.Header_searchBar {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    size-adjust: 200px;
+}
+
+.Header_Nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Header_option {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+
+
+}
+
+
+.header_optioninline1 {
+    font-size: 12px;
+}
+.header_optioninline2 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.profile {
+    height: 10px;
+}
+.search_logo {
+    height: 20px;
+    border-radius: 100px;
+}
+.header_optioninline2 {
+    text-decoration: none; 
+    color: inherit;      
+    cursor: pointer;     
+  }
+  
+  /* Optional: Add hover effect */
+  .header_optioninline2:hover {
+    text-decoration: none; 
+    color: blue;
+  }
+
+  /* This will target all links within the Header */
+.Header_Nav a {
+    text-decoration: none; 
+    color: inherit;      
+  }
+  
+  .Header_Nav a:hover {
+    text-decoration: wavy; 
+  }
+  
+  
